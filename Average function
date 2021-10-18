@@ -1,0 +1,30 @@
+#define  _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+
+int main()
+{
+	printf("please write down any 10 numbers and i will gave you the answer");
+	//此为开场白
+	
+	int arr[10] = { 0 };  //添加一个含有10个元素的数据组 arr
+	int i = 0;
+	for (i = 0; i < 10; i++) //for 代表“循环”
+	{
+		scanf("%d", &arr[i]);
+	}
+	//以上为输入 10 个数字的程序
+
+	int sum = 0;
+	for (i = 0; i < 10; i++)
+	{
+		sum = sum + arr[i];
+	}
+	//以上为加法程序
+
+	int avg = sum / 10;
+	printf("avg = %d", avg);
+    //计算并输出
+	
+	
+	return 0;
+}
