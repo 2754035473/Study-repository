@@ -1,0 +1,18 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include <stdio.h>
+
+int main()
+{
+	int input = 0; //input 代表控制台输入的值
+	printf("接受眼狩令\n");
+	printf("交出你的神之眼(1/0)\n");
+	scanf("%d", &input);
+	
+	if (input == 1)
+		printf("我允许你站着离开\n");
+	else 
+		printf("死吧\n");
+	
+	return 0;
+
+}
