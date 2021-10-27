@@ -1,0 +1,19 @@
+#include<stdio.h>
+
+int main()
+{
+	printf("每天开始写代码吧");
+	int line = 0;
+	while (line < 50000	)
+	{	
+		printf("写代码\, %d\n", line);
+		line++;
+	}
+	if (line == 50000)
+	{
+		printf("请开始改变世界吧！");
+	}
+
+
+	return 0;
+}
